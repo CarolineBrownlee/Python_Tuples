@@ -5,13 +5,13 @@ zoo = ("cat", "Atticus", "dog", "Briley", "fish", "Zippy", "lion", "Bubba", "kan
 
 # 2. Find one of your animals using the tuple.index(value) syntax on the tuple.
 this = zoo.index("Captain Silly")
-# print(this)
+print(this)
 
 # 3. Determine if an animal is in your tuple by using value in tuple syntax.
 
-# animal_to_find = "Jaws"
-# if animal_to_find in zoo:
-#     print("The animal was found.")
+animal_to_find = "Jaws"
+if animal_to_find in zoo:
+    print("The animal was found.")
 
 # 4. You can reverse engineer (unpack) a tuple into another tuple with the following syntax.
 
@@ -24,3 +24,20 @@ this = zoo.index("Captain Silly")
 
 # Create a variable for the animals in your zoo tuple, and print them to the console.
 
+animals = ("Atticus", "Briley", "Zippy", "Bubba", "Sammy", "Jaws", "Sampson", "Hoppy", "Captain Silly")
+(cat, dog, fish, lion, kangaroo, shark, turtle, frog, monkey) = animals
+print(cat)
+print(dog)
+print(fish)
+print(lion)
+print(kangaroo)
+print(shark)
+print(turtle)
+print(frog)
+print(monkey)
+
+# 5. Convert your tuple into a list.
+
+# 6. Use extend() to add three more animals to your zoo.
+
+# 7. Convert the list back into a tuple.
