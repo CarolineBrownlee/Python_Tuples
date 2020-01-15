@@ -23,7 +23,6 @@ if animal_to_find in zoo:
 # print(fourth_child) # Output is "Svetlana"
 
 # Create a variable for the animals in your zoo tuple, and print them to the console.
-
 animals = ("Atticus", "Briley", "Zippy", "Bubba", "Sammy", "Jaws", "Sampson", "Hoppy", "Captain Silly")
 (cat, dog, fish, lion, kangaroo, shark, turtle, frog, monkey) = animals
 print(cat)
@@ -37,7 +36,12 @@ print(frog)
 print(monkey)
 
 # 5. Convert your tuple into a list.
+animals_list = list(animals)
+# print(animals_list)
 
 # 6. Use extend() to add three more animals to your zoo.
-
+animals_list.extend(["Slimy", "Stinky"])
+print(animals_list)
 # 7. Convert the list back into a tuple.
+animals_tuple = tuple(animals_list)
+print(animals_tuple)
